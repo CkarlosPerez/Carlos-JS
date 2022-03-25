@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Pokedex LaunchX</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="izquierdo">
+            <div class="izq-1"></div>
+            <div class="izq-2">
+                <img class="centrar" src="./assets/img/pokeball.png" alt="pokemon" id="pokeImg" width="150px"><br>
+                <p class="centrar_Texto" name="idName" id="idName"></p>
+            </div>
+            <div class="izq-3">
+                <div class="izq-3_1">
+                    <div class="izq-3_1_boton">
+                        <button onclick="imprimir()">&nbsp &nbsp &nbsp</button>
+                    </div>
+                </div>
+                <div class="izq-3_2">
+                    <div class="izq-3_2_input">
+                        <input class="izqInput" type="text" placeholder="pokemon name" name="pokeName" id="pokeName"><br>
+                    </div>
+                </div>
+                <div class="izq-3_3">
+
+                </div>
+            </div>  
+        </div>
+        <div class="derecho">
+            <div class="der-div1"></div>
+            <div class="der-div2">
+                <div>
+                    <label class="lbl" for="tipo">Tipo:  </label>
+                    <label class="lbl l2" for="tipo" id="tipo">wather</label>
+                </div>
+                <div class="der-div2-2">
+                    <div class="stp">
+                        
+                    </div>
+                    <div class="stp1">
+                        <div></div>
+                        <div class="stp1-nrm" id="divs1-10"></div>
+                        <div class="stp1-nrm" id="divs1-9"></div>
+                        <div class="stp1-nrm" id="divs1-8"></div>
+                        <div class="stp1-nrm" id="divs1-7"></div>
+                        <div class="stp1-nrm" id="divs1-6"></div>
+                        <div class="stp1-nrm" id="divs1-5"></div>
+                        <div class="stp1-nrm" id="divs1-4"></div>
+                        <div class="stp1-nrm" id="divs1-3"></div>
+                        <div class="stp1-nrm" id="divs1-2"></div>
+                        <div class="stp1-nrm" id="divs1-1"></div>
+                        <div class="stp1-lbl-label">
+                            <label for="ps">PS</label>
+                        </div>
+                    </div>
+                    <div class="stp1">
+                        <div></div>
+                        <div class="stp1-nrm" id="divs2-10"></div>
+                        <div class="stp1-nrm" id="divs2-9"></div>
+                        <div class="stp1-nrm" id="divs2-8"></div>
+                        <div class="stp1-nrm" id="divs2-7"></div>
+                        <div class="stp1-nrm" id="divs2-6"></div>
+                        <div class="stp1-nrm" id="divs2-5"></div>
+                        <div class="stp1-nrm" id="divs2-4"></div>
+                        <div class="stp1-nrm" id="divs2-3"></div>
+                        <div class="stp1-nrm" id="divs2-2"></div>
+                        <div class="stp1-nrm" id="divs2-1"></div>
+                        <div class="stp1-lbl-label sl2">
+                            <label for="atk">ATK</label>
+                        </div>
+                    </div>
+                    <div class="stp1">
+                        <div></div>
+                        <div class="stp1-nrm" id="divs3-10"></div>
+                        <div class="stp1-nrm" id="divs3-9"></div>
+                        <div class="stp1-nrm" id="divs3-8"></div>
+                        <div class="stp1-nrm" id="divs3-7"></div>
+                        <div class="stp1-nrm" id="divs3-6"></div>
+                        <div class="stp1-nrm" id="divs3-5"></div>
+                        <div class="stp1-nrm" id="divs3-4"></div>
+                        <div class="stp1-nrm" id="divs3-3"></div>
+                        <div class="stp1-nrm" id="divs3-2"></div>
+                        <div class="stp1-nrm" id="divs3-1"></div>
+                        <div class="stp1-lbl-label sl2">
+                            <label for="def">DEF</label>
+                        </div>
+                    </div>
+                    <div class="stp1">
+                        <div></div>
+                        <div class="stp1-nrm" id="divs4-10"></div>
+                        <div class="stp1-nrm" id="divs4-9"></div>
+                        <div class="stp1-nrm" id="divs4-8"></div>
+                        <div class="stp1-nrm" id="divs4-7"></div>
+                        <div class="stp1-nrm" id="divs4-6"></div>
+                        <div class="stp1-nrm" id="divs4-5"></div>
+                        <div class="stp1-nrm" id="divs4-4"></div>
+                        <div class="stp1-nrm" id="divs4-3"></div>
+                        <div class="stp1-nrm" id="divs4-2"></div>
+                        <div class="stp1-nrm" id="divs4-1"></div>
+                        <div class="stp1-lbl-label sl4">
+                            <label for="sp-atack">SP.ATK</label>
+                        </div>
+                    </div>
+                    <div class="stp1">
+                        <div></div>
+                        <div class="stp1-nrm" id="divs5-10"></div>
+                        <div class="stp1-nrm" id="divs5-9"></div>
+                        <div class="stp1-nrm" id="divs5-8"></div>
+                        <div class="stp1-nrm" id="divs5-7"></div>
+                        <div class="stp1-nrm" id="divs5-6"></div>
+                        <div class="stp1-nrm" id="divs5-5"></div>
+                        <div class="stp1-nrm" id="divs5-4"></div>
+                        <div class="stp1-nrm" id="divs5-3"></div>
+                        <div class="stp1-nrm" id="divs5-2"></div>
+                        <div class="stp1-nrm" id="divs5-1"></div>
+                        <div class="stp1-lbl-label sl5">
+                            <label for="sp-def">SP.DEF</label>
+                        </div>
+                    </div>
+                    <div class="stp1">
+                        <div></div>
+                        <div class="stp1-nrm" id="divs6-10"></div>
+                        <div class="stp1-nrm" id="divs6-9"></div>
+                        <div class="stp1-nrm" id="divs6-8"></div>
+                        <div class="stp1-nrm" id="divs6-7"></div>
+                        <div class="stp1-nrm" id="divs6-6"></div>
+                        <div class="stp1-nrm" id="divs6-5"></div>
+                        <div class="stp1-nrm" id="divs6-4"></div>
+                        <div class="stp1-nrm" id="divs6-3"></div>
+                        <div class="stp1-nrm" id="divs6-2"></div>
+                        <div class="stp1-nrm" id="divs6-1"></div>
+                        <div class="stp1-lbl-label sl5">
+                            <label for="seed">SPEED</label>
+                        </div>
+                    </div>
+                    <div class="stp"></div>
+                    <!--<input type="text" placeholder="0" name="ps" id="ps"><br>
+                    <label for="ps">PS</label><br><br>-->
+                </div>
+            </div>
+            <div class="der-div3"></div>
+            <div class="der-div4"></div>
+            <div class="der-div5">
+                <div></div>
+                <div class="der-div5-lbl">
+                    <label for="altura">Altura:</label>
+                    <label for="alturaDat" id="altura">0.5 m</label>
+                </div>
+                <div class="der-div5-lbl">
+                    <label for="peso">Peso:</label>
+                    <label for="pesoDat" id="peso">4.0 kg</label>
+                </div>
+                
+            </div>
+            <br>
+            
+            
+            
+        
+        </div>  
+    </div>
+</body>
+<footer>
+    <script src="./pokedexLaunchX.js"></script>
+</footer>
+</html>
